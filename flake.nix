@@ -2,7 +2,7 @@
   description = "Muzaffar's Nix configs";
 
   inputs = {
-        # Nixpkgs
+    # Nixpkgs
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
 
     # You can access packages and modules from different nixpkgs revs
@@ -20,7 +20,7 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-    outputs = {
+  outputs = {
     self,
     nixpkgs,
     nixpkgs-unstable,
@@ -84,5 +84,4 @@
     };
     devShell = lib.mapAttrs (system: _: devShellFor system) (lib.genAttrs systems {});
   };
-
 }
