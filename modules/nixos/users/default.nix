@@ -1,0 +1,3 @@
+{
+  muzaffar = import ./muzaffar.nix;
+}
