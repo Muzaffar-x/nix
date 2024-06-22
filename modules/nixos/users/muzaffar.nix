@@ -8,10 +8,10 @@
     users.users = {
       muzaffar = {
         isNormalUser = true;
-        description = "Muzaffar ...";
-        initialPassword = "SomeExample";
+        description = "Muzaffar Anasbekov";
+        initialPassword = "2ReTpN1XG2VOR4aR";
         openssh.authorizedKeys.keys = [
-          "ssh-rsa ..."
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJHDSH+E/7791S2x2QF3WsQU1nnr7WNLyK1BubDmOeib muzaffar.gaming7@gmail.com"
         ];
         extraGroups = ["networkmanager" "wheel" "docker" "vboxusers" "admins"];
         packages =
